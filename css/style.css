@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'lacuna_regularregular';
+    src: url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont');
+    src: url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.woff2') format('woff2'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.woff') format('woff'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.ttf') format('truetype'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.svg#lacuna_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fontface/league-gothic-master/webfonts/leaguegothic-regular-webfont.eot');
+    src: url('../fontface/league-gothic-master/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fontface/league-gothic-master/webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+    url('../fontface/league-gothic-master/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('../fontface/league-gothic-master/webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.navbar-brand{
+    height:6.625rem ;width: 7.56rem;
+    background-color : white; 
+    padding: 1rem 1.25rem !important ;
+
+}
+
+.navbar{
+    
+    background-color:#2d2b2b;
+    
+}
+
+.color{
+    background-color:#2d2b2b;
+}
+.colortext{ 
+    color:white!important;
+    font-family: 'League Gothic';
+    font-size:2rem;
+
+}
+
+.img-size{height:6.5rem ;width: 7.56rem;}
+
+.nav-link{
+    font-family: 'League Gothic';
+    font-size:2.25rem;
+
+}
+
+.shape{ 
+    padding-top: 7.125rem;
+    background-color:#3a0a1d;
+    height: 23.25rem;
+    display:flex ;
+    justify-content:center;
+}
+
+.text-white{
+    margin-top: top 1.625em;
+}
+
+.bi-circle-fill{
+color: #f0db01!important;
+
+}
+.p-shape{
+    margin-top: 1.625rem!important;
+}
+
+.nav-item{
+margin-left: 6.44rem;
+}
+
+footer{
+    padding: 2rem 0;
+    height: 11rem;
+    background: #e4bc01;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+footer h1{
+    font-family:"League Gothic";
+}
+
+footer p{
+    font-family:"lacuna_regularregular";
+}
+
+.social ul li {
+    display: inline;
+    background-color: #fff;
+    height : 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.social ul li i{
+    color:#e4bc01;
+    margin : 0.3rem
+}
+.social ul li i:hover{
+    color:cornflowerblue;
+}
